@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  nacos:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-11-24T18:15:01.0642175+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 08ccf128939522d641bb2a189eb2eddbab9b6c43ce1bf8d519733266afdd0c8c
+    maintainers:
+    - name: arrowfeng
+    - name: paderlol
+    name: nacos
+    urls:
+    - https://heretac.github.io/helm-charts/nacos-0.1.5.tgz
+    version: 0.1.5
+generated: "2022-11-24T18:15:01.0620543+08:00"
