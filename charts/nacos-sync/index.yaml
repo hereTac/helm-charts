@@ -3,12 +3,12 @@ entries:
   nacos-k8s-sync:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2022-11-25T09:36:18.6881253+08:00"
+    created: "2022-11-25T11:16:27.814414+08:00"
     description: A Helm chart nacos-k8s-sync for Kubernetes
-    digest: 4449f027fd8d98620b3675410d8d45d1cb56aec82075388b9859bfe41396b8ba
+    digest: bd1b16e8bab450dfdb24cb45a35b0a5ed425d8cda24da41fb05e7bc483c1f938
     name: nacos-k8s-sync
     type: application
     urls:
-    - https://heretac.github.io/helm-charts/nacos-k8s-sync-0.1.0.tgz
+    - https://heretac.github.io/helm-charts/charts/nacos-sync/nacos-k8s-sync-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-25T09:36:18.6873645+08:00"
+generated: "2022-11-25T11:16:27.8136918+08:00"
