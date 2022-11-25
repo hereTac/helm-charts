@@ -1,10 +1,28 @@
-# helm-charts
+# Helm Charts
 Some applications, rovided by [hereTac](https://github.com/hereTac).
 
-# Containers Helm Charts
+# Containers Charts
 - https://github.com/nacos-group/nacos-k8s
 - https://github.com/nacos-group/nacos-k8s-sync
-# Adding this Repository to Helm
+
+## Usage
+
+[Helm](https://helm.sh) must be installed to use the charts.  Please refer to
+Helm's [documentation](https://helm.sh/docs) to get started.
+
+Once Helm has been set up correctly, add the repo as follows:
 ```bash
-$ helm repo add hereTac.github.io https://hereTac.github.io/helm-charts
+  helm repo add <alias> https://hereTac.github.io/helm-charts
+```
+If you had already added this repo earlier, run `helm repo update` to retrieve
+the latest versions of the packages.  You can then run `helm search repo
+<alias>` to see the charts.
+
+To install the <chart-name> chart:
+```bash
+    helm install my-<chart-name> <alias>/<chart-name>
+```
+To uninstall the chart:
+```bash
+    helm delete my-<chart-name>
 ```
