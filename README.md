@@ -3,7 +3,6 @@ Some applications, rovided by [hereTac](https://github.com/hereTac).
 
 # Containers Charts
 - https://github.com/nacos-group/nacos-k8s
-- https://github.com/nacos-group/nacos-k8s-sync
 
 ## Usage
 
